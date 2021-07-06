@@ -26,6 +26,7 @@ img{
 {
     width: 1200px;
     margin: 0 auto;
+
 }
 
 /*header*/
@@ -33,6 +34,10 @@ img{
 {
     display: flex;
     align-items: center;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .navigation
 {
@@ -58,18 +63,24 @@ img{
 {
     margin-right: 50px;
 }
-
 .list-adress
 {
     list-style: none; /*прибирає точки в списку*/
     margin-right: auto;
 }
+.icon-list-adress{
+    margin-right: 10px;
+    fill: currentColor;
+}
 .mail-link
-{
+{   display: flex;
+    align-items: center;
     margin-left: 331px;
 }
 .tel-link
-{
+{   
+    display: flex;
+    align-items: center;
     margin-left: 50px;
 }
 /*Логотип WebStudio*/
@@ -104,21 +115,13 @@ img{
     font-size: 14px; 
     line-height: 1.14; 
     letter-spacing: 0.02em;
-    
     color: #212121;
     text-decoration: none
 }
-.menu-link:hover,
-.menu-link:focus
-{
-    color: #2196f3
-}
-
 .menu-link.current
 {
-    color: #2196f3
+    color: #2196f3;
 }
-
 /*Стилізація блоків меню тел, майл*/
 .mail-link{
     font-family: Roboto; 
@@ -127,7 +130,6 @@ img{
     font-size: 14px; 
     line-height: 1.14; 
     letter-spacing: 0.02em;
-    
     color: #757575;
     text-decoration: none
 }
@@ -142,22 +144,33 @@ img{
     color: #757575;
     text-decoration: none
 }
+
+.menu-link:hover,
+.menu-link:focus
+{
+    color: #2196f3;
+}
+.icon-list-adress:hover,
+.icon-list-adress:focus
+{
+    color: #2196f3;
+}
 .mail-link:hover,
 .mail-link:focus
 {
-    color: #2196f3
+    color: #2196f3;
 }
 .tel-link:hover,
 .tel-link:focus
 {
-    color: #2196f3
+    color: #2196f3;
 }
 
-
+/*----------------------------------------*/
 /*Стилізація секції HERO*/
 .section-hero
 {
-    background: #2f303a;
+    background-color: #2f303a;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
