@@ -153,7 +153,7 @@ img{
 .icon-list-adress:hover,
 .icon-list-adress:focus
 {
-    fill: #2196f3;
+    color: currentColor #2196f3;
 }
 .mail-link:hover,
 .mail-link:focus
