@@ -221,7 +221,7 @@ img{
 .section
 {
     padding-top: 94px;
-    padding-bottom: 94px;
+   /* padding-bottom: 94px;*/
 }
 .features-container
 {
@@ -232,6 +232,7 @@ img{
 {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 /*.list{
     width: 270px;
@@ -244,6 +245,8 @@ img{
 */
 .hero-list
 {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-family: Roboto; 
     font-style: normal; 
     font-weight: bold; 
@@ -253,9 +256,26 @@ img{
     text-transform: uppercase;
     color: #212121;
 }
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F5FA;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+.features-list-icon{
+    background-color: #F4F5FA;
+    border-radius: 0px 4px 4px 0px 0.25;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .hero-list-item
 {
+    margin-right: 30px;
     font-family: Roboto; 
     font-style: normal; 
     font-weight: normal; 
@@ -294,12 +314,14 @@ img{
 .section3
 {
     background: #f5f4fa;
+    margin-top: 94px;
 
 }
 .team-work
 {
     display: flex;
     align-items: center;
+    padding-bottom: 94px;
 }
 .section-our-team
 {
