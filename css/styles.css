@@ -153,7 +153,7 @@ img{
 .icon-list-adress:hover,
 .icon-list-adress:focus
 {
-    color: #2196f3;
+    fill: #2196f3;
 }
 .mail-link:hover,
 .mail-link:focus
@@ -169,8 +169,12 @@ img{
 /*----------------------------------------*/
 /*Стилізація секції HERO*/
 .section-hero
-{
-    background-color: #2f303a;
+{   
+    background-image:linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-color: #2f303a;*/
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
