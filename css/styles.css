@@ -399,6 +399,14 @@ img{
     fill: #AFB1B8;
 }
 
+.client-icon:hover,
+.client-icon:focus{
+    fill: #2196F3;
+}
+.client-link:hover,
+.client-link:focus{
+    border-color: #2196F3;
+}
 /*Стилізація секяції footer*/
 
 .footer
