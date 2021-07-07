@@ -478,8 +478,38 @@ img{
     margin-left: 8px;
 }
 
-
-
+/*Секція----- Присоединяйтесь-----*/
+.join{
+    margin-left: 70px;
+}
+.join-title{
+    font-family: Roboto;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.join-list{
+    display: flex;
+    justify-self: center;
+    margin-top: 16px;
+    margin-left: -10px;
+}
+.join-item{
+    margin-left: 10px;
+}
+.join-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    fill: #AFB1AF;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.1);
+}
 
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/
