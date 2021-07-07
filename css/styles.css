@@ -415,11 +415,12 @@ img{
     padding-top: 60px;
     right: 252px;
 }
-/*.footer-container
-{
-    width: 1200px;
-    right: 252px;
-}*/
+.footer-container{
+    display: flex;
+    align-items: baseline;
+   /* width: 1200px;
+    right: 252px;*/
+}
 
 .logo-footer
 {
@@ -506,10 +507,15 @@ img{
     align-items: center;
     justify-content: center;
     padding: 12px;
-    fill: #AFB1AF;
+    fill: #FFFFFF;
     border-radius: 50%;
     background-color: rgba(255,255,255, 0.1);
 }
+.join-link:hover,
+.join-link:focus{
+    background-color: #2196F3;
+}
+
 
 /*portfolio.html*/
 /*Стилізація та сторінки portfolio*/
