@@ -217,7 +217,7 @@ img{
 .section
 {
     padding-top: 94px;
-   /* padding-bottom: 94px;*/
+    padding-bottom: 94px;
 }
 .features-container
 {
@@ -310,7 +310,7 @@ img{
 
 .section3{
     background: #f5f4fa;
-    padding-bottom: 94px;
+    /*padding-bottom: 94px;*/
 }
 .team-work
 {
