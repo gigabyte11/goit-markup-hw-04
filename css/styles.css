@@ -97,7 +97,7 @@ img{
     color: #2196F3;
     text-decoration: none
     text-shadow: 0 4 4
-    rgba(0,0.0,0.25);
+    rgba(0,0,0,0.25);
     text-decoration: none /*прибирає підкреслення*/
     }
 .logo-web
@@ -534,8 +534,10 @@ img{
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background: #F4F5FA;
 }   
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus
