@@ -371,8 +371,7 @@ flex-basis: calc(100%/4 - 270px);
 .team-item{
     padding: 30px 0px;
 }
-.section-our-team
-{
+.section-our-team{
     font-family: Roboto; 
     font-style: normal; 
     font-weight: 500; 
@@ -383,8 +382,7 @@ flex-basis: calc(100%/4 - 270px);
     color: var(--color-text-section);
     margin-bottom: 10px;
 }
-.section-profession
-{
+.section-profession{
     
     font-family: Roboto; 
     font-style: normal; 
