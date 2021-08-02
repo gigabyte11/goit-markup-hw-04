@@ -381,7 +381,6 @@ flex-basis: calc(100%/4 - 270px);
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--color-text-section);
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 .section-profession
