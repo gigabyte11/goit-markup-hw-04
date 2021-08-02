@@ -219,7 +219,6 @@ img{
     letter-spacing: 0.06em;
     color: var(--text-color-hero);
     text-transform: uppercase;
-
 } 
 
 .modal-btn 
@@ -442,7 +441,7 @@ flex-basis: calc(100%/4 - 270px);
     fill: var(--color-svg-border);
 }
 
-.client-icon.client-link:hover ,
+.client-icon:hover ,
 .client-icon:focus{
     fill: var(--color-text);
     border-color: var(--color-text);
