@@ -442,12 +442,14 @@ flex-basis: calc(100%/4 - 270px);
     fill: var(--color-svg-border);
 }
 
-.client-icon:hover,
+.client-icon.client-link:hover ,
 .client-icon:focus{
     fill: var(--color-text);
+    border-color: var(--color-text);
 }
 .client-link:hover,
 .client-link:focus{
+    fill: var(--color-text);
     border-color: var(--color-text);
 }
 /*Стилізація секяції footer*/
@@ -565,6 +567,8 @@ flex-basis: calc(100%/4 - 270px);
 
 .modal-btn-portfolio
 {
+    width: 145px;
+    height: 38px;
     font-family: Roboto; 
     font-style: normal;
     font-weight: 500; 
@@ -622,12 +626,12 @@ flex-basis: calc(100%/4 - 270px);
     display: flex;
     align-items: center;
     justify-content: center;/*робить контент по центру*/
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 .list-portfolio-menu
 {
-    margin-top: 94px;
-    margin-bottom: 34px;
     margin-left: 8px;
 }
 .portfolio-content
@@ -655,3 +659,6 @@ flex-basis: calc(100%/4 - 270px);
 0px 4px 4px rgba(0, 0, 0, 0.06), 
 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.portfolio-content .portfolio-list-content{
+    flex-basis: calc(100%/3 - 30px)
+    }
