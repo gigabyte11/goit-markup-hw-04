@@ -669,7 +669,3 @@ flex-basis: calc(100%/4 - 270px);
 .portfolio-list-content:not(:last-child){
     margin-bottom: 30px;
 }*/
-..portfolio-content:not(:last-child)
-{
-    margin:30px;
-}
